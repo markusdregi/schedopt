@@ -13,5 +13,6 @@ setup(
     author_email='markusdregi@gmail.com',
     version = '0.0.1',
     description = 'Workshop schedule optimizer.',
+    test_suite='tests',
     install_requires=_requirements,
 )
