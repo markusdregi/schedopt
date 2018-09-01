@@ -8,11 +8,11 @@ with open('requirements.txt', 'r') as f:
 
 setup(
     name='schedopt',
-    packages = find_packages(),
+    packages=find_packages(),
     author='Markus Dregi',
     author_email='markusdregi@gmail.com',
-    version = '0.0.1',
-    description = 'Workshop schedule optimizer.',
+    version='0.0.1',
+    description='Workshop schedule optimizer.',
     test_suite='tests',
     install_requires=_requirements,
 )
